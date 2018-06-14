@@ -125,7 +125,7 @@ testVersion() {
 
 #Stop execution on any error
 trap "fail_trap" EXIT
-set -e
+set -ex
 initArch
 initOS
 verifySupported
